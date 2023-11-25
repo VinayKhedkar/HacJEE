@@ -1,0 +1,165 @@
+body
+{
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 500px;
+    
+}
+
+.nav_main1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.left_bar
+{
+    display: flex;
+    gap: 30px;
+}
+
+.buttons button, .left_bar button
+{
+    background-color: transparent;
+    border: 0px none transparent;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+button.joinus
+{
+    background: #8D5CF6;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+    border: white solid 2px;
+}
+
+a
+{
+    padding: 10px;
+}
+.logo
+{
+    width:150px;
+    border-radius: 8px;
+    border: 3px whitesmoke solid;
+}
+
+i
+{
+    font-size: medium;
+}
+
+.intro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+button.Quote
+{
+    padding: 15px 40px;
+    background-color: #8D5CF6;
+    border: 0px none transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+button.Learn
+{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-shadow: #ECECEC 20px;
+}
+
+h1
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h2
+{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 15%;
+}
+
+.girl_model img
+{
+    width: 350px;
+}
+
+div.article_button
+{
+    display: flex;
+    gap: 10px;
+}
+
+button.Learn
+{
+    background-color: rgba(245, 245, 245, 0.171);
+}
+
+.about_course
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+i.ri-video-line
+{
+    font-size: 30px;
+}
