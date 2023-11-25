@@ -158,8 +158,35 @@ button.Learn
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 30px;
 }
-i.ri-video-line
+i.ri-video-line, i.ri-survey-line, i.ri-book-fill
 {
     font-size: 30px;
+}
+
+article.courses
+{
+    text-align: left;
+    border: #ECECEC solid 2px;
+    padding: 1%;
+    background-color: #ECECEC;
+    opacity: 0.9;
+}
+
+.about-vid-courses
+{
+    font-weight: normal;
+    color: black;
+}
+
+.vidcourses
+{
+    color: black;
+}
+hr
+{
+    width: 100px;
+    border-color: rgb(255,123,82);
+
 }
