@@ -205,18 +205,18 @@ hr
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 210px;
+    gap: 160px;
     padding: 6% 15%;
 }
 
-article.one h5, article.two h5, article.three h5 
+article.one h5, article.two h5, article.three h5, article.four h5
 {
     font-size: 16px;
     margin-top: 0;
     text-align: center;
 }
 
-article.one h1, article.two h1, article.three h1
+article.one h1, article.two h1, article.three h1, article.four h1
 {
     font-size: 58px;
     margin-bottom: 0;
