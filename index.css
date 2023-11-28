@@ -1,13 +1,16 @@
 body
 {
-    background-image: url('images/background.png');
-    background-size: cover;
-    background-color: #f0f0f0;
-    background-attachment: fixed;
-    background-position: center center;
     margin: 0;
 }
 
+header
+{
+    height: 100vh;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+    background-position: center center;
+}
 nav
 {
     display: flex;
@@ -133,7 +136,7 @@ h2
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6% 15%;
+    padding: 8.5% 15%;
 }
 
 .girl_model img
@@ -189,4 +192,33 @@ hr
     width: 100px;
     border-color: rgb(255,123,82);
 
+}
+
+.stats_courses
+{
+    background: rgb(38,51,93);
+}
+
+.stats_1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 210px;
+    padding: 6% 15%;
+}
+
+article.one h5, article.two h5, article.three h5 
+{
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+}
+
+article.one h1, article.two h1, article.three h1
+{
+    font-size: 58px;
+    margin-bottom: 0;
+    text-align: center;
 }
