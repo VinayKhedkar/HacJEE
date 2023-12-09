@@ -427,6 +427,16 @@ div.details
     padding: 2% 15%;
 }
 
+div.burger
+{
+    display: none;
+}
+
+div.burgerbutton
+{
+    display: none;
+}
+
 ::-webkit-scrollbar
 {
     width: 12px;
@@ -452,6 +462,10 @@ div.details
         gap: 250px;
     }
 
+    div.burger
+    {
+        display: none;
+    }
     .intro
     {
         gap: 30px;
@@ -473,11 +487,16 @@ div.details
     }
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 972px)
 {
     header nav
     {
         gap: 20px;
+    }
+
+    div.burger
+    {
+        display: none;
     }
     .about_course
     {
@@ -520,18 +539,83 @@ div.details
     }
 }
 
-@media only screen and (max-width: 425px)
+@media only screen and (max-width: 740px)
 {
     div.pop_courses img
     {
         width: 0px;
     }
 
+    div.burger
+    {
+        display: block;
+        
+    }
+
+    .burger i
+    {
+        font-size: 25px;
+        color: #ECECEC;
+        font-weight: 700;
+    }
     div.buttons
     {
-        flex-direction: column;
+        display: none;
         width: 0px;
         height: 0px;
     }
-}
 
+    button.joinus, .left_bar button
+    {
+        display: none;
+    }
+
+    .intro
+    {
+        padding: 30% 15%;
+    }
+    .intro article h1 
+    {
+        font-size: 30px;
+    }
+
+    .intro article h2
+    {
+        font-size: 18px;
+    }
+    .intro article h3
+    {
+        font-size: 13px;
+    }
+
+    button.Quote
+    {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
+    button.Learn
+    {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
+    article.one h1, article.two h1, article.three h1, article.four h1
+    {
+        font-size: 38px;
+    }
+
+    article.one h5, article.two h5, article.three h5, article.four h5
+    {
+        font-size: 12px;
+    }
+
+    footer button
+    {
+        font-size: 10px;
+    }
+    footer
+    {
+        font-size: 10px;
+    }
+}
